@@ -143,6 +143,13 @@ body {
   margin-bottom: 3px;
   font-weight: 900;
 }
+
+.stack {
+  display: inline-block;
+  color: #848484;
+  font-size: 2.75rem;
+}
+
 .underline {
   border-bottom: 1px solid black;
 }
