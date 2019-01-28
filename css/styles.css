@@ -117,10 +117,32 @@ body {
   grid-template-columns: 300px 1fr;
 }
 
-.section-information {
-  text-align: right;
+.section-container > ul > li{
+  font-size: 0.9rem;
 }
 
+.section-information {
+  text-align: right;
+  line-height: 10px;
+}
+
+.education-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.education-container > h4 {
+  margin: 0px;
+}
+
+.education-information {
+  margin: 0px;
+}
+
+#education-coursework-title {
+  margin-bottom: 3px;
+  font-weight: 900;
+}
 .underline {
   border-bottom: 1px solid black;
 }
