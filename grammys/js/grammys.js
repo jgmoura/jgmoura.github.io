@@ -1,4 +1,4 @@
-fetch("../data/grammys.json")
+fetch("data/grammys.json")
   .then(function(response) {
     return response.json();
   })
